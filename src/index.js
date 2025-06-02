@@ -5,7 +5,7 @@ import { QuickResponsesClient } from '@amazon-connect/quick-responses';
 
 connect = connect || {};
 connect.SDK = connect.SDK || {};
-connect.SDK.EmailClient = EmailClient;
-connect.SDK.FileClient = FileClient;
-connect.SDK.TemplateClient = MessageTemplateClient;
-connect.SDK.QuickResponsesClient = QuickResponsesClient;
+connect.SDK.EmailClient = connect.SDK.EmailClient || EmailClient;
+connect.SDK.FileClient = connect.SDK.FileClient || FileClient;
+connect.SDK.MessageTemplateClient = connect.SDK.MessageTemplateClient || MessageTemplateClient;
+connect.SDK.QuickResponsesClient = connect.SDK.QuickResponsesClient || QuickResponsesClient;

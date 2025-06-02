@@ -1,0 +1,23 @@
+{
+  "name": "@sample/email-client",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@amazon-connect/email": "^1.0.6",
+    "@amazon-connect/file": "^1.0.6",
+    "@amazon-connect/message-template": "^1.0.6",
+    "@amazon-connect/quick-responses": "^1.0.6",
+    "amazon-connect-streams": "^2.18.4"
+  },
+  "devDependencies": {
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1"
+  }
+}

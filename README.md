@@ -1,4 +1,4 @@
-# sampleConnectEmailSDK
+# SampleConnectEmailSDKJS
 
 Sample Example of consuming the SDK.
 

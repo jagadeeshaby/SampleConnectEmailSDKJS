@@ -13,8 +13,7 @@
     "@amazon-connect/email": "^1.0.6",
     "@amazon-connect/file": "^1.0.6",
     "@amazon-connect/message-template": "^1.0.6",
-    "@amazon-connect/quick-responses": "^1.0.6",
-    "amazon-connect-streams": "^2.18.4"
+    "@amazon-connect/quick-responses": "^1.0.6"
   },
   "devDependencies": {
     "webpack": "^5.99.9",

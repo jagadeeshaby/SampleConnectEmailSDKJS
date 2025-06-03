@@ -51,7 +51,7 @@ Sample Example of consuming the SDK.
 
     <script>
         connect.core.initCCP(document.getElementById("email-app"), {
-            ccpUrl: "https://jagadeey-yul-lima.my.connect.aws/ccp-v2",
+            ccpUrl: "<<ccpURL>>",
             loginPopup: true,
         });
 
